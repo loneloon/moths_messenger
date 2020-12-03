@@ -1,0 +1,21 @@
+server.common package
+=====================
+
+Submodules
+----------
+
+server.common.settings module
+-----------------------------
+
+.. automodule:: server.common.settings
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+Module contents
+---------------
+
+.. automodule:: server.common
+   :members:
+   :undoc-members:
+   :show-inheritance:

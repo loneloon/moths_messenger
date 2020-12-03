@@ -1,0 +1,8 @@
+Included Apps
+=============
+
+.. toctree::
+   :maxdepth: 2
+
+   client_pack
+   server_pack

@@ -1,0 +1,349 @@
+
+
+
+
+
+<!DOCTYPE html>
+
+
+
+<!--[if IE 8]> 				 <html class="no-js lt-ie9" lang="en" prefix="og: http://ogp.me/ns#"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" prefix="og: http://ogp.me/ns#"> <!--<![endif]-->
+
+
+
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width" />
+
+	<title>client module | Moths documentation</title>
+    	<link rel="icon" type="image/x-icon" href="_static/images/moths_ico.ico" />
+	
+	
+	
+	<meta property="og:title" content="client module | Moths documentation" />
+	<meta property="og:type" content="website" />
+	<meta property="og:url" content="/client_pack.client.html" />
+	<meta property="og:image" content="/_static/" />
+	
+	
+	<meta property="og:description" content="Clear example of bad naming.&#34;Let&#39;s Confuse Everyone&#34;" />
+	<meta property="og:site_name" content="Moths documentation" />
+	
+	
+    
+    
+	<meta name="description" content="Clear example of bad naming.&#34;Let&#39;s Confuse Everyone&#34;">
+    
+	
+	
+	
+    <link rel="stylesheet" href="_static/basic.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    
+    <link rel="stylesheet" href="_static/css/basic.css" type="text/css" />
+    	
+	<script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '',
+        VERSION:     '',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    	<script type="text/javascript" src="_static/jquery.js"></script>
+    	<script type="text/javascript" src="_static/underscore.js"></script>
+    	<script type="text/javascript" src="_static/doctools.js"></script>
+    	<script type="text/javascript" src="_static/language_data.js"></script>
+    	<script type="text/javascript" src="_static/foundation/js/vendor/custom.modernizr.js"></script>
+ 
+<script type="text/javascript">
+/* <![CDATA[ */
+(function() {
+    var s = document.createElement('script');
+    var t = document.getElementsByTagName('script')[0];
+
+    s.type = 'text/javascript';
+    s.async = true;
+    s.src = '//api.flattr.com/js/0.6/load.js?mode=auto';
+
+    t.parentNode.insertBefore(s, t);
+ })();
+/* ]]> */
+</script>
+
+</head>
+
+
+
+<body>
+	<div id="root"><div class="contain-to-grid">
+			<nav class="top-bar">
+				<ul class="title-area">
+					<li class="name">
+					  <h1><a href="index.html">Moths  documentation</a></h1>
+					</li>
+					<li class="toggle-topbar menu-icon"><a href="#"><span></span></a></li>
+				</ul>
+				 
+				<section class="top-bar-section">
+					<ul class="left"><li class="divider"></li></ul>
+					
+						<ul class="current">
+<li class="has-dropdown toctree-l1 current"><a class="reference internal" href="client_pack.html">Client package</a><ul class="dropdown current">
+<li class="toctree-l2"><a class="reference internal" href="client_pack.html#subpackages">Subpackages</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="client_pack.html#submodules">Submodules</a></li>
+</ul>
+</li>
+<li class="has-dropdown toctree-l1"><a class="reference internal" href="server_pack.html">Server package</a><ul class="dropdown ">
+<li class="toctree-l2"><a class="reference internal" href="server_pack.html#subpackages">Subpackages</a></li>
+<li class="toctree-l2"><a class="reference internal" href="server_pack.html#submodules">Submodules</a></li>
+</ul>
+</li>
+</ul>
+
+					
+					<ul class="left">
+						
+	<li class="divider"></li>
+
+	
+		<li><a href="client_pack.cache.html"  title="cache">&laquo; previous</a></li>
+	
+		
+			<li><a href="genindex.html"  title="General Index">index</a></li>
+		
+		
+			<li><a href="py-modindex.html"  title="Python Module Index">modules</a></li>
+		
+		
+		
+
+	
+		<li><a href="client_pack.main.html"  title="main module">next &raquo;</a></li>
+	
+					</ul>
+				</section>
+			</nav>
+		</div><div id="header">
+			<div class="row">
+				
+		        <div id="logo-container" class="large-6 columns">
+		        	
+	<div>
+		<a href="index.html">
+		
+	    	
+	    		<img id="logo" src="_static/images/moths_logo.svg" />
+	    	
+		
+		</a>
+	</div>
+
+		        </div>
+		        <div class="large-6 columns">
+		            <p id="motto">
+						<h1>Clear example of bad naming.</h1><br><i>"Let's Confuse Everyone"</i>
+					</p>
+		        </div>
+		        
+		    </div>
+	    </div>
+	    
+	    <div class="social-buttons">
+	    	
+	    </div>
+		
+		
+		
+		<div class="row">
+	
+		<ul class="breadcrumbs">
+			
+		  	<li><a href="index.html">Moths  documentation</a></li>
+
+		  	
+		  		<li><a href="client_pack.html">Client package</a></li>
+
+		  	
+			<li class="current"><a href="">client module</a></li>
+		</ul>
+	</div>
+		
+		
+		<div class="row">
+			
+			<div id="content" class="large-9 push-3 columns">
+				
+  <div class="section" id="client-module">
+<h1>client module<a class="headerlink" href="#client-module" title="Permalink to this headline">¶</a></h1>
+<p>Client module wields essential Client class which represents client side in a server-client dialogue.
+Main.py uses this class as a core connection asset and wraps it with gui.</p>
+<dl class="py class">
+<dt id="login_required">
+<em class="property">class </em><code class="sig-name descname">login_required</code><a class="headerlink" href="#login_required" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py function">
+<dt id="init__">
+<span id="__init__"></span><code class="sig-name descname">__init__</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#init__" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py function">
+<dt id="call__">
+<span id="__call__"></span><code class="sig-name descname">__call__</code><span class="sig-paren">(</span><em class="sig-param"><span class="o">*</span><span class="n">args</span></em>, <em class="sig-param"><span class="o">**</span><span class="n">kwargs</span></em><span class="sig-paren">)</span><a class="headerlink" href="#call__" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<ul class="simple">
+<li><p><em>this is a decorator class which restricts messaging unless client is logged in</em></p></li>
+<li><p><em>it wraps function (using functools wraps) and checks for client.gui_out.authenticated value. if True - original args are passed to the function and it is returned intact, otherwise function will not be executed</em></p></li>
+</ul>
+<div class="line-block">
+<div class="line"><br /></div>
+<div class="line"><br /></div>
+</div>
+<dl class="py class">
+<dt id="Client">
+<em class="property">class </em><code class="sig-name descname">Client</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">metaclass</span><span class="o">=</span><span class="default_value">ClientVerifier</span></em><span class="sig-paren">)</span><a class="headerlink" href="#Client" title="Permalink to this definition">¶</a></dt>
+<dd><p><em>This class uses ClientVerifier from client_pack.metacls module as meta to verify that client is using only allowed methods.</em></p>
+</dd></dl>
+
+<dl class="py function">
+<dt id="id0">
+<code class="sig-name descname">__init__</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">server</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">port</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">username</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">password</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">fullname</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">email</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">gui_out</span><span class="o">=</span><span class="default_value">None</span></em><span class="sig-paren">)</span><a class="headerlink" href="#id0" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py function">
+<dt id="connect">
+<code class="sig-name descname">connect</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#connect" title="Permalink to this definition">¶</a></dt>
+<dd><p><em>initial connection to host server socket</em></p>
+</dd></dl>
+
+<dl class="py function">
+<dt id="client_authenticate">
+<code class="sig-name descname">client_authenticate</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#client_authenticate" title="Permalink to this definition">¶</a></dt>
+<dd><p><em>client authentication procedure - series of socket send/recv exchange with the server</em></p>
+</dd></dl>
+
+<dl class="py function">
+<dt id="read">
+<code class="sig-name descname">read</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#read" title="Permalink to this definition">¶</a></dt>
+<dd><p><em>looped function, constantly reading socket if open. initiated in a separate thread within mainloop function</em></p>
+</dd></dl>
+
+<dl class="py function">
+<dt id="poke">
+<code class="sig-name descname">poke</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#poke" title="Permalink to this definition">¶</a></dt>
+<dd><p><em>tests server connection if client packages can’t reach it, initiated by presence function</em></p>
+</dd></dl>
+
+<dl class="py function">
+<dt id="send">
+<code class="sig-name descname">send</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#send" title="Permalink to this definition">¶</a></dt>
+<dd><p><em>forms a queue of client messages (if multiple are attempted at a time) and sends them gradually if connection is active</em></p>
+</dd></dl>
+
+<dl class="py function">
+<dt id="message">
+<code class="sig-name descname">message</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#message" title="Permalink to this definition">¶</a></dt>
+<dd><p><em>forms a client-client message based on jim protocol and passes it to send function</em></p>
+</dd></dl>
+
+<dl class="py function">
+<dt id="contacts">
+<code class="sig-name descname">contacts</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#contacts" title="Permalink to this definition">¶</a></dt>
+<dd><p><em>returns contacts list for the main module</em></p>
+</dd></dl>
+
+<dl class="py function">
+<dt id="load_chat">
+<code class="sig-name descname">load_chat</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#load_chat" title="Permalink to this definition">¶</a></dt>
+<dd><p><em>reads cached chat and passes it to display in the main module</em></p>
+</dd></dl>
+
+<dl class="py function">
+<dt id="cache_message">
+<code class="sig-name descname">cache_message</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#cache_message" title="Permalink to this definition">¶</a></dt>
+<dd><p><em>caches incoming message</em></p>
+</dd></dl>
+
+<dl class="py function">
+<dt id="presence">
+<code class="sig-name descname">presence</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#presence" title="Permalink to this definition">¶</a></dt>
+<dd><p><em>forms a presence message to server (if no client messages have been sent in the previous five seconds) to test connection and inform server that client is online</em></p>
+</dd></dl>
+
+<dl class="py function">
+<dt id="mainloop">
+<code class="sig-name descname">mainloop</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#mainloop" title="Permalink to this definition">¶</a></dt>
+<dd><p><em>uses connect function to establish client-server connection, launches separate threads to read and form presence messages</em></p>
+</dd></dl>
+
+</div>
+
+
+			</div>
+			
+			
+			
+			<div id="navigation" class="large-3 pull-9 columns">
+				<ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="client_pack.html">Client package</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="client_pack.html#subpackages">Subpackages</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="client_pack.html#submodules">Submodules</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="server_pack.html">Server package</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="server_pack.html#subpackages">Subpackages</a></li>
+<li class="toctree-l2"><a class="reference internal" href="server_pack.html#submodules">Submodules</a></li>
+</ul>
+</li>
+</ul>
+
+			</div>
+			
+		</div>
+		
+		<div id="root_footer"></div>
+	</div><div id="footer"><div id="bottom-nav"><span><a href="client_pack.cache.html"  title="cache">&laquo; previous</a></span>
+			<span><a href="genindex.html"  title="General Index">index</a></span>
+				<span><a href="py-modindex.html"  title="Python Module Index">modules</a></span>
+				<span><a href="client_pack.main.html"  title="main module">next &raquo;</a></span></div><div id="footer-notice">
+			        &copy; Copyright 2020, F.Kleshchev.
+		        Created using <a href="http://sphinx.pocoo.org/">Sphinx</a> 3.2.1.
+	    </div></div><script>
+		document.write('<script src=' +
+		('__proto__' in {} ? '_static/foundation/js/vendor/zepto' : 'js/vendor/jquery') +
+		'.js><\/script>')
+	</script>
+	<script src="_static/foundation/js/foundation.min.js"></script>
+	<script src="_static/foundation/js/foundation/foundation.topbar.js"></script>
+	<script>
+		$(document).foundation();
+		
+		/**
+		 * Fallback svg to png.
+		 * Taken from Todd Motto's article:
+		 * http://toddmotto.com/mastering-svg-use-for-a-retina-web-fallbacks-with-png-script/
+		 */
+		if(!Modernizr.svg) {
+		    $('img[src*="svg"]').attr('src', function() {
+		        return $(this).attr('src').replace('.svg', '.png');
+		    });
+		}
+		
+		// Reset width of all table columns.
+		$('col').attr('width', null);
+		
+		// Add "returns" class to all returns elements
+		$(".field-name:contains('Returns:')").parent().addClass('returns');
+		
+		
+		
+		
+	</script>
+	
+</body>
+
+</html>

@@ -1,0 +1,62 @@
+client package
+==============
+
+Subpackages
+-----------
+
+.. toctree::
+   :maxdepth: 4
+
+   client.common
+   client.log
+
+Submodules
+----------
+
+client.client module
+--------------------
+
+.. automodule:: client.client
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+client.client\_gui module
+-------------------------
+
+.. automodule:: client.client_gui
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+client.login\_ui module
+-----------------------
+
+.. automodule:: client.login_ui
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+client.metacls module
+---------------------
+
+.. automodule:: client.metacls
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+client.register\_ui module
+--------------------------
+
+.. automodule:: client.register_ui
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+Module contents
+---------------
+
+.. automodule:: client
+   :members:
+   :undoc-members:
+   :show-inheritance:

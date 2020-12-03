@@ -1,0 +1,21 @@
+client.common package
+=====================
+
+Submodules
+----------
+
+client.common.settings module
+-----------------------------
+
+.. automodule:: client.common.settings
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+Module contents
+---------------
+
+.. automodule:: client.common
+   :members:
+   :undoc-members:
+   :show-inheritance:

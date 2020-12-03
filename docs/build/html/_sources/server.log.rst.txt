@@ -1,0 +1,21 @@
+server.log package
+==================
+
+Submodules
+----------
+
+server.log.server\_log\_config module
+-------------------------------------
+
+.. automodule:: server.log.server_log_config
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+Module contents
+---------------
+
+.. automodule:: server.log
+   :members:
+   :undoc-members:
+   :show-inheritance:

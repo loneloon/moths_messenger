@@ -1,0 +1,308 @@
+
+
+
+
+
+<!DOCTYPE html>
+
+
+
+<!--[if IE 8]> 				 <html class="no-js lt-ie9" lang="en" prefix="og: http://ogp.me/ns#"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" prefix="og: http://ogp.me/ns#"> <!--<![endif]-->
+
+
+
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width" />
+
+	<title>server module | Moths documentation</title>
+    	<link rel="icon" type="image/x-icon" href="_static/images/moths_ico.ico" />
+	
+	
+	
+	<meta property="og:title" content="server module | Moths documentation" />
+	<meta property="og:type" content="website" />
+	<meta property="og:url" content="/server_pack.server.html" />
+	<meta property="og:image" content="/_static/" />
+	
+	
+	<meta property="og:description" content="Clear example of bad naming.&#34;Let&#39;s Confuse Everyone&#34;" />
+	<meta property="og:site_name" content="Moths documentation" />
+	
+	
+    
+    
+	<meta name="description" content="Clear example of bad naming.&#34;Let&#39;s Confuse Everyone&#34;">
+    
+	
+	
+	
+    <link rel="stylesheet" href="_static/basic.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    
+    <link rel="stylesheet" href="_static/css/basic.css" type="text/css" />
+    	
+	<script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '',
+        VERSION:     '',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    	<script type="text/javascript" src="_static/jquery.js"></script>
+    	<script type="text/javascript" src="_static/underscore.js"></script>
+    	<script type="text/javascript" src="_static/doctools.js"></script>
+    	<script type="text/javascript" src="_static/language_data.js"></script>
+    	<script type="text/javascript" src="_static/foundation/js/vendor/custom.modernizr.js"></script>
+ 
+<script type="text/javascript">
+/* <![CDATA[ */
+(function() {
+    var s = document.createElement('script');
+    var t = document.getElementsByTagName('script')[0];
+
+    s.type = 'text/javascript';
+    s.async = true;
+    s.src = '//api.flattr.com/js/0.6/load.js?mode=auto';
+
+    t.parentNode.insertBefore(s, t);
+ })();
+/* ]]> */
+</script>
+
+</head>
+
+
+
+<body>
+	<div id="root"><div class="contain-to-grid">
+			<nav class="top-bar">
+				<ul class="title-area">
+					<li class="name">
+					  <h1><a href="index.html">Moths  documentation</a></h1>
+					</li>
+					<li class="toggle-topbar menu-icon"><a href="#"><span></span></a></li>
+				</ul>
+				 
+				<section class="top-bar-section">
+					<ul class="left"><li class="divider"></li></ul>
+					
+						<ul class="current">
+<li class="has-dropdown toctree-l1"><a class="reference internal" href="client_pack.html">Client package</a><ul class="dropdown ">
+<li class="toctree-l2"><a class="reference internal" href="client_pack.html#subpackages">Subpackages</a></li>
+<li class="toctree-l2"><a class="reference internal" href="client_pack.html#submodules">Submodules</a></li>
+</ul>
+</li>
+<li class="has-dropdown toctree-l1 current"><a class="reference internal" href="server_pack.html">Server package</a><ul class="dropdown current">
+<li class="toctree-l2"><a class="reference internal" href="server_pack.html#subpackages">Subpackages</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="server_pack.html#submodules">Submodules</a></li>
+</ul>
+</li>
+</ul>
+
+					
+					<ul class="left">
+						
+	<li class="divider"></li>
+
+	
+		<li><a href="server_pack.metacls.html"  title="metacls module">&laquo; previous</a></li>
+	
+		
+			<li><a href="genindex.html"  title="General Index">index</a></li>
+		
+		
+			<li><a href="py-modindex.html"  title="Python Module Index">modules</a></li>
+		
+		
+		
+
+	
+		<li><a href="server_pack.main.html"  title="server_pack.main module">next &raquo;</a></li>
+	
+					</ul>
+				</section>
+			</nav>
+		</div><div id="header">
+			<div class="row">
+				
+		        <div id="logo-container" class="large-6 columns">
+		        	
+	<div>
+		<a href="index.html">
+		
+	    	
+	    		<img id="logo" src="_static/images/moths_logo.svg" />
+	    	
+		
+		</a>
+	</div>
+
+		        </div>
+		        <div class="large-6 columns">
+		            <p id="motto">
+						<h1>Clear example of bad naming.</h1><br><i>"Let's Confuse Everyone"</i>
+					</p>
+		        </div>
+		        
+		    </div>
+	    </div>
+	    
+	    <div class="social-buttons">
+	    	
+	    </div>
+		
+		
+		
+		<div class="row">
+	
+		<ul class="breadcrumbs">
+			
+		  	<li><a href="index.html">Moths  documentation</a></li>
+
+		  	
+		  		<li><a href="server_pack.html">Server package</a></li>
+
+		  	
+			<li class="current"><a href="">server module</a></li>
+		</ul>
+	</div>
+		
+		
+		<div class="row">
+			
+			<div id="content" class="large-9 push-3 columns">
+				
+  <div class="section" id="server-module">
+<h1>server module<a class="headerlink" href="#server-module" title="Permalink to this headline">¶</a></h1>
+<p>Server module wields essential Server class which represents server side in a server-client dialogue.
+Main.py uses this class as a core connection asset and wraps it with gui.</p>
+<div class="line-block">
+<div class="line"><br /></div>
+<div class="line"><br /></div>
+</div>
+<dl class="py class">
+<dt id="Server">
+<em class="property">class </em><code class="sig-name descname">Server</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">metaclass</span><span class="o">=</span><span class="default_value">ServerVerifier</span></em><span class="sig-paren">)</span><a class="headerlink" href="#Server" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<div class="line-block">
+<div class="line"><em>This class uses ServerVerifier from server_pack.metacls module as meta to verify that server is using only allowed methods.</em></div>
+<div class="line"><br /></div>
+</div>
+<dl class="py attribute">
+<dt>
+<code class="sig-name descname">port = PortVerifier()</code></dt>
+<dd></dd></dl>
+
+<dl class="py function">
+<dt id="init__">
+<span id="__init__"></span><code class="sig-name descname">__init__</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">self</span></em>, <em class="sig-param"><span class="n">addr</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">port</span><span class="o">=</span><span class="default_value">None</span></em><span class="sig-paren">)</span><a class="headerlink" href="#init__" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py function">
+<dt id="read_requests">
+<code class="sig-name descname">read_requests</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#read_requests" title="Permalink to this definition">¶</a></dt>
+<dd><p><em>collects data from all connector-socks available for reading, forms responses using response function and returns a response batch to the mainloop</em></p>
+</dd></dl>
+
+<dl class="py function">
+<dt id="write_requests">
+<code class="sig-name descname">write_requests</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#write_requests" title="Permalink to this definition">¶</a></dt>
+<dd><p><em>sends responses to all socks available for writing, also triggers db function and updates clients’ contacts</em></p>
+</dd></dl>
+
+<dl class="py function">
+<dt id="response">
+<code class="sig-name descname">response</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#response" title="Permalink to this definition">¶</a></dt>
+<dd><p><em>forms responses based on the contents of passed jsons(or bytes)</em></p>
+</dd></dl>
+
+<dl class="py function">
+<dt id="server_authenticate">
+<code class="sig-name descname">server_authenticate</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#server_authenticate" title="Permalink to this definition">¶</a></dt>
+<dd><p><em>this procedure is initiated for every connected client - server collects credentials and compares received hashes for passwords. if everything is corrects - adds client to verified and sends an authentication confirmation json to client</em></p>
+</dd></dl>
+
+<dl class="py function">
+<dt id="wipe_user">
+<code class="sig-name descname">wipe_user</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#wipe_user" title="Permalink to this definition">¶</a></dt>
+<dd><p><em>deletes unresponding users and issues logouts through db</em></p>
+</dd></dl>
+
+<dl class="py function">
+<dt id="mainloop">
+<code class="sig-name descname">mainloop</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#mainloop" title="Permalink to this definition">¶</a></dt>
+<dd><p><em>main looping function that initiates reading, writing and authentication</em></p>
+</dd></dl>
+
+</div>
+
+
+			</div>
+			
+			
+			
+			<div id="navigation" class="large-3 pull-9 columns">
+				<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="client_pack.html">Client package</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="client_pack.html#subpackages">Subpackages</a></li>
+<li class="toctree-l2"><a class="reference internal" href="client_pack.html#submodules">Submodules</a></li>
+</ul>
+</li>
+<li class="toctree-l1 current"><a class="reference internal" href="server_pack.html">Server package</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="server_pack.html#subpackages">Subpackages</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="server_pack.html#submodules">Submodules</a></li>
+</ul>
+</li>
+</ul>
+
+			</div>
+			
+		</div>
+		
+		<div id="root_footer"></div>
+	</div><div id="footer"><div id="bottom-nav"><span><a href="server_pack.metacls.html"  title="metacls module">&laquo; previous</a></span>
+			<span><a href="genindex.html"  title="General Index">index</a></span>
+				<span><a href="py-modindex.html"  title="Python Module Index">modules</a></span>
+				<span><a href="server_pack.main.html"  title="server_pack.main module">next &raquo;</a></span></div><div id="footer-notice">
+			        &copy; Copyright 2020, F.Kleshchev.
+		        Created using <a href="http://sphinx.pocoo.org/">Sphinx</a> 3.2.1.
+	    </div></div><script>
+		document.write('<script src=' +
+		('__proto__' in {} ? '_static/foundation/js/vendor/zepto' : 'js/vendor/jquery') +
+		'.js><\/script>')
+	</script>
+	<script src="_static/foundation/js/foundation.min.js"></script>
+	<script src="_static/foundation/js/foundation/foundation.topbar.js"></script>
+	<script>
+		$(document).foundation();
+		
+		/**
+		 * Fallback svg to png.
+		 * Taken from Todd Motto's article:
+		 * http://toddmotto.com/mastering-svg-use-for-a-retina-web-fallbacks-with-png-script/
+		 */
+		if(!Modernizr.svg) {
+		    $('img[src*="svg"]').attr('src', function() {
+		        return $(this).attr('src').replace('.svg', '.png');
+		    });
+		}
+		
+		// Reset width of all table columns.
+		$('col').attr('width', null);
+		
+		// Add "returns" class to all returns elements
+		$(".field-name:contains('Returns:')").parent().addClass('returns');
+		
+		
+		
+		
+	</script>
+	
+</body>
+
+</html>

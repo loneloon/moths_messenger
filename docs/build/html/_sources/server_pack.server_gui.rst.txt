@@ -1,0 +1,7 @@
+server\_pack.server\_gui module
+-------------------------------
+
+.. automodule:: server_pack.server_gui
+   :members:
+   :undoc-members:
+   :show-inheritance:
